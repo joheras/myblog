@@ -1,0 +1,11 @@
+blog_blog_aplication_homepage:
+    path:     /
+    defaults: { _controller: BlogBlogAplicationBundle:Default:index }
+    
+show_entries:
+    path: /entries
+    defaults: { _controller: BlogBlogAplicationBundle:Entry:showAll }
+
+show_entry:
+    path: /entry/{id}
+    defaults: { _controller: BlogBlogAplicationBundle:Entry:showEntry,id:1 }
