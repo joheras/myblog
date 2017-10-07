@@ -2,15 +2,6 @@ services:
     entryrepository:
         alias: inmemory.entryrepository
     inmemory.entryrepository:
-        class: Blog\BlogDomain\Repository\Infrastructure\InMemoryEntryRepository
+        class: Blog\BlogInfrastructure\Repository\InMemoryEntryRepository
         public: false
-        
-#    doctrine.entryrepository:
-#        class: Blog\BlogDomain\Repository\Infrastructure\DoctrineEntryRepository
-#        public: false
-#    
-    
-    
-#    blog_blog_aplication.example:
-#        class: Blog\BlogAplicationBundle\Example
-#        arguments: ["@service_id", "plain_value", %parameter%]
+ 

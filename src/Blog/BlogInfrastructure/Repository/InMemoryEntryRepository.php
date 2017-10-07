@@ -1,6 +1,6 @@
 <?php
 
-namespace Blog\BlogDomain\Repository\Infrastructure;
+namespace Blog\BlogInfrastructure\Repository;
 use Blog\BlogDomain\Repository\IEntryRepository;
 use Blog\BlogDomain\Model\Entry;
 
